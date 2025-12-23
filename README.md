@@ -17,15 +17,15 @@
 
 ### Oppgave 1: Min Første "Database" - Data som Tekst (ca. 1.5 timer)
 
-1.  **Opprett datafilen:** `studenter.csv`
+1.  **Opprett datafilen:** `studenter.csv` i mappen `data`
     ```csv
     101,Mickey,CS
     102,Daffy,EE
     103,Donald,CS
     104,Minnie,PSY
     ```
-2.  **Lag en `Student`-klasse i Java.**
-3.  **Skriv et Java-program (`LesStudenter.java`).**
+2.  **Lag en `Student`-klasse i Java.** (se instruksjoner i filen `oppgave1/LesStudenter.java`)
+3.  **Skriv et Java-program (`LesStudenter.java`).** (se instruksjoner i filen)
 
 **Refleksjonsspørsmål:**
 *   Hva er fordelene med å lagre data i et slikt format?
