@@ -8,11 +8,19 @@ import java.io.FileNotFoundException;
 // eller studentnummer. Andre felt, som representerer navn til studenten, kan være en String, for eksempel, osv.
 class Student {
     // Skriv kode her ...
+    int id;
+    String navn;
+    String program;
 
+    Student(int id, String navn, String program) {
+        this.id = id;
+        this.navn = navn;
+        this.program = program;
+    }
     // Metoden erstatter en eksisterende metode toString() 
     @Override
     public String toString() {
-        return "Student{" + .... + "}";
+        return "Student{" + this.navn + "}";
     }
 
 }
@@ -30,7 +38,7 @@ public class LesStudenter {
                 // Tips: ta inn det første feltet som int (forutsatt at datafeltet i klassen Student er int)
                 // Skriv kode her ...
                 // Tips: alloker Student-objekt for hver linje i filen med studentinfo (fullfør initialisering av objektet Student)
-                Student s = new Student(...);
+                Student s = new Student(1,"lars", "CS");
                 // Tips: Skriv ut dataene med den overskrevede toString() metoden i klassen Student.
                 System.out.println(s);
             }
